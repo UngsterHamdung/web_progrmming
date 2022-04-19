@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경속성 예제</title>
+    <style>
+        body {
+            background-image: url("./images/BackgroundBack.png"), url("./images/BackgroundFront.png");
+            background-size: 100% 250px;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: 0px 100px;
+        }
+
+        p {
+            font-size:32px;
+            color:brown;
+        }
+        .font_big {font-size: 48px;}
+        .font_small {font-size: 16px;}
+        .font_arial {font-family: Arial;}
+        .font_roman {font-family: 'Times New Roman', Times, serif;}
+        .font_italic {font-style:italic;}
+        .font_bold {font-weight: bold;}
+        .font_blue {color: blue;}
+        .font_center {text-align: center;}
+        .btn {
+            width:150px;
+            height:100px;
+            background-color: orange;
+            border:10px solid white;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px grey;
+        }
+        .btn > a{
+            display:block;
+            line-height: 100px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <p class = "font_big font_arial">asdasdpasdasdasdasdasdasdasdasdasdasd
+        asdasdasdasdasdasdasdasdasdasdasdasdas
+            asdasdasdasdasdasdasdasdasdasdasdasdasd
+                asdasdasdasdasdasdasdasdasdasdasasdasd</p>
+
+    <p class="font-small font_roman">
+        asdasdasvasdfasdfasdfasdfasdfasdfasdfasdfvwqweqwrqerwerq
+    </p>
+    <p class="font_italic">asssassssssssssssssqqqqqqqqqqqqqqqqqqqqqqqq</p>
+    <p class="font_roman font_bold font_italic">Ejsl</p>
+<h1 class="font_blue font_center">글자 속성 테스트</h1>
+<div class="btn">
+    <a href="#" class="font_big font_center">Click</a>
+</div>
+</body>
+</html>
